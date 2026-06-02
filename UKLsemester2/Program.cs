@@ -1,11 +1,11 @@
 ﻿List<Stand> data_stand = new List<Stand>()
 {
-    new Stand ("\nOutdoor-1", 400000),
-    new Stand ("Outdoor-2", 500000),
-    new Stand ("Indoor-1", 700000),
-    new Stand ("Indoor-2", 800000),
-    new Stand ("Premium-1", 1800000),
-    new Stand ("Premium-2", 2000000),
+    new StandOutdoor ("\nOutdoor-1", 400000),
+    new StandOutdoor ("Outdoor-2", 500000),
+    new StandIndoor ("Indoor-1", 700000),
+    new StandIndoor ("Indoor-2", 800000),
+    new StandPremium ("Premium-1", 1800000),
+    new StandPremium ("Premium-2", 2000000),
 };
 
 while (true)
